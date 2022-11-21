@@ -20,7 +20,7 @@
   <!-- Main CSS File -->
   <link rel="stylesheet" href="assets/css/style.css">
 
-  <title>Login | bloger.</title>
+  <title>Post a blog | bloger.</title>
 </head>
 <body>
     <!-- ====== Header ====== -->
@@ -53,25 +53,34 @@
               <form>
       
                 <div class="divider d-flex align-items-center my-4">
-                  <h1 class="text-center fw-bold mx-3 mb-0">Login to bloger.</h1>
+                  <h1 class="text-center fw-bold mx-3 mb-0">
+                    Write your blog.
+                </h1>
                 </div>
       
-                <!-- Email input -->
+                <!-- Title Input -->
                 <div class="form-outline mb-4">
-                  <input type="email" id="form3Example3" class="form-control form-control-lg"
-                    placeholder="Enter a valid email address" />
+                  <input type="Text" id="form3Example3" class="form-control form-control-lg"
+                    placeholder="Title" />
                 </div>
       
-                <!-- Password input -->
+                <!-- Content Textarea Input -->
                 <div class="form-outline mb-3">
-                  <input type="password" id="form3Example4" class="form-control form-control-lg"
-                    placeholder="Enter password" />
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Content"></textarea>
                 </div>
       
                 <div class="text-center text-lg-start mt-4 pt-2">
-                  <button type="button" class="btn btn-primary btn-lg"
-                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button><br><br>
-                  <span class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="register.html">Register</a></span>
+                    <a href="user-profile.html">
+                    <button type="button" class="btn btn-primary btn-lg"
+                    style="padding-left: 2.5rem; padding-right: 2.5rem; background-color: rgb(255, 109, 109);">
+                        Discard
+                    </button>
+                    </a>
+
+                    <button type="button" class="btn btn-primary btn-lg"
+                    style="padding-left: 2.5rem; padding-right: 2.5rem;">
+                        Submit
+                    </button>
                 </div>
       
               </form>

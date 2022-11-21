@@ -14,17 +14,20 @@
     <!-- Tab Icon -->
     <link rel="icon" href="assets/img/logo - bloger.png">
 
+    <!-- Font Awesome -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
     <!-- Main CSS File -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>bloger - Share your stories online</title>
+    <title>bloger | @andre.genorga</title>
 </head>
 <body>
     <!-- ====== Header ====== -->
-    <header id="header" class="header fixed-top">
+    <header id="header" class="header fixed-top mx-3">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between brand">
             <!-- Navigation bar logo -->
             <a href="#" class="logo d-flex align-items-center">
@@ -33,9 +36,9 @@
 
             <nav id="navbar" class="navbar">
                 <div class="lc-block d-grid gap-2 d-md-flex justify-content-md-start">
-                  <a class="btn px-4 me-md-2" href="login.html" role="button">
+                <a class="btn px-4 me-md-2" href="index-welcome.html">
                     Logout
-                  </a>
+                </a>
                 </div>
             </nav> 
             <!-- END nav -->
@@ -47,11 +50,101 @@
     <section id="hero" class="hero d-flex align-items-center">
         <div class="container">
             <div class="row">
-                <h2>Marcus Andre Genorga</h2>
-                <h5>@andre.genorga</h5>
+              <!-- Hero Image -->
+              <div class="col-lg-6 hero-img">
+                <img src="assets/img/profile-pic.jpg" class="img-fluid mx-3 rounded-5" alt="">
+              </div>
+              
+              <!-- Hero Text -->
+              <div class="col-lg-6 d-flex flex-column justify-content-center">
+                <h1>Marcus Andre Genorga</h1>
+                <h4 style="margin: 4px;">@andre.genorga</h4>
+                <p>I am a kind of human that thinks eating peanut butter out of a spoon is normal. Hi, I'm Andre. One of the co-founder of this site.</p>
+                
+                <div class="text-center text-lg-start">
+                    <a href="post-entry.html">
+                        <span  class="d-inline rounded-3 d-flex align-items-center justify-content-center align-self-center shadow" style="background-color: rgb(204, 204, 204, 0.3); padding: 10px 30px 10px 30px; margin-top: 20px; font-weight: 5000;" role="button">
+                            <i class="fa fa-plus" aria-hidden="true" style="font-size: 1rem;"><span style="font-family: Nunito;">&nbsp&nbspPost Entry</span></i>
+                        </span>
+                    </a>
+                </div>
+                
+
+              </div>
+  
+            </div>
+          </div>
+          <hr class="hr hr-blurry" />
+    </section>
+    <!-- Hero Section - END -->
+
+    <section class="d-flex align-items-center">
+        <div class="container">
+            <h1 class="mb-5">My Entries.</h1>
+            <div class="lighthouse">
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="w-100 mb-2 mb-md-4 shadow-1-strong rounded">
+                            <div class="container p-4">
+                                <div class="card-body">
+                                    <!-- <img src="https://images.pexels.com/photos/14384827/pexels-photo-14384827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top rounded-5" alt=""> -->
+                                    <h2 class="card-title mt-4">Another Day for a Trip</h2>
+                                    <h6>11/21/2022</h6>
+                                    <hr class="hr hr-blurry"/>
+                                    <p class="card-text text-justify">Lit anim id est laborum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="w-100 mb-2 mb-md-4 shadow-1-strong rounded">
+                            <div class="container p-4">
+                                <div class="card-body">
+                                    <!-- <img src="https://images.pexels.com/photos/14384827/pexels-photo-14384827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top rounded-5" alt=""> -->
+                                    <h2 class="card-title mt-4">Sunday Morning Rain is Falling</h2>
+                                    <h6>11/20/2022</h6>
+                                    <hr class="hr hr-blurry"/>
+                                    <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="w-100 mb-2 mb-md-4 shadow-1-strong rounded">
+                            <div class="container p-4">
+                                <div class="card-body">
+                                    <!-- <img src="https://images.pexels.com/photos/14384827/pexels-photo-14384827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top rounded-5" alt=""> -->
+                                    <h2 class="card-title mt-4">Stressful Evening</h2>
+                                    <h6>11/19/2022</h6>
+                                    <hr class="hr hr-blurry"/>
+                                    <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="w-100 mb-2 mb-md-4 shadow-1-strong rounded">
+                            <div class="container p-4">
+                                <div class="card-body">
+                                    <!-- <img src="https://images.pexels.com/photos/14384827/pexels-photo-14384827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top rounded-5" alt=""> -->
+                                    <h2 class="card-title mt-4">The point of no return</h2>
+                                    <h6>11/18/2022</h6>
+                                    <hr class="hr hr-blurry"/>
+                                    <p class="card-text text-justify">Lit anim id est laborum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                
+                </div>
             </div>
         </div>
     </section>
-    <!-- Hero Section - END -->
 </body>
 </html>
